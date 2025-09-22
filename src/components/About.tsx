@@ -9,8 +9,11 @@ const About = () => {
     { icon: Calendar, label: t("about.stats.years_old"), value: "21" },
     { icon: Award, label: t("about.stats.gpa"), value: "3.00" },
     { icon: GraduationCap, label: t("about.stats.training_programs"), value: "10+" },
-    { icon: MapPin, label: t("about.stats.university"), value: t("about.mini_university_val") }
+    { icon: MapPin, label: t("about.stats.university"), value: t("about.mini_university_val") },
   ];
+
+  // เพิ่มตัวแปรรูป (ไฟล์จริงใส่ใน public/)
+  const PROFILE_IMG = "/profile.png";
 
   return (
     <section id="about" className="section-padding bg-gradient-soft">
@@ -27,6 +30,16 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left */}
           <div className="space-y-6">
+            {/* Profile Image */}
+            <div className="flex justify-center lg:justify-start">
+              <img
+                src={PROFILE_IMG}
+                alt="Profile"
+                loading="lazy"
+                className="w-40 h-40 rounded-full object-cover shadow-lg border-4 border-primary/20"
+              />
+            </div>
+
             <h3 className="text-2xl font-semibold text-primary">
               {t("about.headline")}
             </h3>
