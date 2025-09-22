@@ -67,7 +67,7 @@ const Contact = () => {
       payload.append("to", "puripat.lakornthai@gmail.com");
 
       // หัวข้อ + เนื้อหา (จะโชว์ในเมล)
-      payload.append("subject", `Contact from Portfolio – ${formData.firstName} ${formData.lastName}`);
+      payload.append("subject", `Contact from Website Portfolio – ${formData.firstName} ${formData.lastName}`);
       payload.append(
         "message",
         `${formData.message}\n\n—\nFrom: ${formData.firstName} ${formData.lastName}\nEmail: ${formData.email}\nCompany: ${formData.company || "-"}`
