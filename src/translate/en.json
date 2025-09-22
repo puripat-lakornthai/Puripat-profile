@@ -1,0 +1,199 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "certs": "Certificates",
+    "contact": "Contact",
+    "cta": "Get In Touch",
+    "brand": "Puripat Lakornthai"
+  },
+
+  "hero": {
+    "title_first": "Puripat",
+    "title_last": "Lakornthai",
+    "role": "Full Stack Developer",
+    "bio": "Information Technology student passionate about Web Development, Cloud Technologies, and AI Solutions",
+    "view_work": "View My Work",
+    "contact": "Get In Touch",
+    "email": "puripat.lakornthai@gmail.com",
+    "phone": "+66 92 551 9692"
+  },
+
+  "about": {
+    "title": "About Me",
+    "subtitle": "Passionate IT student ready to contribute to innovative tech solutions",
+    "headline": "IT Student & Future Developer",
+    "p1": "I'm a 4th-year Information Technology for Digital Industry (ITDI) student at Burapha University, passionate about creating innovative digital solutions that make a difference.",
+    "p2": "My interests span across network systems, web development, API development, and cloud technologies. I have hands-on experience with both Windows and Linux servers, and I'm particularly enthusiastic about AWS and cloud deployment.",
+    "p3": "I'm a responsible, eager learner who thrives in collaborative environments. I'm always ready to embrace new challenges and apply my knowledge to create maximum value for organizations.",
+
+    "mini_university": "University",
+    "mini_status": "Status",
+    "mini_focus": "Focus",
+    "mini_university_val": "BUU",
+    "mini_status_val": "4th year",
+    "mini_focus_val": "Full Stack / Cloud / AI",
+
+    "stats": {
+      "years_old": "Years old",
+      "gpa": "GPA",
+      "training_programs": "Training programs",
+      "university": "University"
+    }
+  },
+
+  "skills": {
+    "title": "Technical Skills",
+    "subtitle": "Comprehensive expertise across full-stack development, cloud technologies, and AI solutions",
+
+    "col1_title_lang": "Programming Languages",
+    "col1_lang": ["Python", "JavaScript", "HTML", "CSS", "C/C++"],
+
+    "col1_title_web": "Web Development",
+    "col1_web": ["Node.js/Express", "React + Ant Design", "REST API", "Nginx Reverse Proxy"],
+
+    "col1_title_db": "Database Management",
+    "col1_db": ["MySQL", "MongoDB", "SQLite"],
+
+    "col2_title_server": "Server & Networking",
+    "col2_server": ["Windows Server", "Linux Server", "MikroTik Router", "Docker"],
+
+    "col2_title_cloud": "Cloud & DevOps",
+    "col2_cloud": ["AWS", "CI/CD (GitHub Actions)", "Docker Compose", "Load Balancer"],
+
+    "col2_title_ai": "AI & Machine Learning",
+    "col2_ai": ["Flask", "OpenCV", "YOLO", "EasyOCR", "CNN", "Deep Learning"],
+
+    "col3_title_infra": "Infrastructure",
+    "col3_infra": ["AD DS", "DHCP", "WSUS", "Group Policy", "Firewall"],
+
+    "col3_title_tools": "Development Tools",
+    "col3_tools": ["Git/GitHub", "VirtualBox", "Ansible", "Render", "Melon Cloud"],
+
+    "col3_title_lang": "Language Proficiency",
+    "lang_th": { "label": "Thai", "s": "Speaking: Excellent", "r": "Reading: Excellent", "w": "Writing: Excellent" },
+    "lang_en": { "label": "English", "s": "Speaking: Good", "r": "Reading: Good", "w": "Writing: Good" }
+  },
+
+  "experience": {
+    "title": "Education & Experience",
+    "subtitle": "Academic background and professional development journey",
+    "edu_title": "Current Education",
+    "edu_bachelor_when": "2022 – Present",
+    "edu_bachelor_what": "Bachelor's Degree — ITDI, Burapha University · GPA 3.00 (4th year)",
+    "edu_high_when": "2017 – 2021",
+    "edu_high_what": "High School — Bangplee Radsadornbumrung School · Science – Mathematics · GPA 2.81",
+
+    "training_title": "Professional Training",
+    "training_list": [
+      "Sep 5, 2024 — Cooperative Education Preparation (Softskill), Professional One Co., Ltd.",
+      "Sep 9, 2024 — Cooperative Education Preparation (Softskill), AgileSort Corporation Co., Ltd.",
+      "Oct 17, 2024 — Cooperative Education Preparation (Softskill), Agency Marketing Web3",
+      "Aug 8, 2024 — Cooperative Education Preparation (Softskill), BlueBik Group Public Co., Ltd.",
+      "Dec 12, 2024 — Clicknext Camp @BUU “Introduction to Real-world Full Stack Developer”, Clicknext Co., Ltd.",
+      "Jan 14, 2025 — AWS Academy Cloud Foundations (BlueBik Vulcan)",
+      "Feb 6, 2025 — Cooperative Education Preparation (Softskill), IRPC Public Co., Ltd.",
+      "Mar 13, 2025 — Application of PaaS in System Development for CI/CD Process (IT for Digital Industry Expert)"
+    ]
+  },
+
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "Showcase of technical expertise through real-world implementations and innovative solutions",
+
+    "p1_title": "Windows Server Enterprise Setup",
+    "p1_tag": "Windows Server • Active Directory • Network Infrastructure",
+    "p1_desc": "Simulated company infrastructure (1 HQ + 2 branches) with AD DS, DHCP, WSUS, Group Policy, Backup, File Sharing, and IIS Intranet Website",
+
+    "p2_title": "Smart Parking Project",
+    "p2_tag": "AI • Computer Vision • Python • OpenCV",
+    "p2_desc": "AI-powered parking system using Python Flask, OpenCV, YOLO, and EasyOCR for intelligent vehicle detection and management",
+
+    "p3_title": "Cloud Deployment Solutions",
+    "p3_tag": "AWS • DevOps • CI/CD • Cloud",
+    "p3_desc": "Deployed both static and dynamic websites to AWS, Render, and Melon Cloud with proper CI/CD pipelines",
+
+    "title_detailed": "Featured Projects (Detailed)",
+
+    "c1_title": "Rocky Linux Docker Infrastructure",
+    "c1_badge": "DevOps & Infrastructure",
+    "c1_desc": "Production-ready infrastructure on Rocky Linux with Docker & Compose, 4+ services, Round Robin load balancing, HA design.",
+    "c1_bullets": ["Server setup & hardening", "Multi-container orchestration", "Load balancing (RR)", "High availability layout"],
+    "c1_chips": ["Rocky Linux", "Docker", "Compose", "Nginx"],
+
+    "c2_title": "LINE Helpdesk Platform",
+    "c2_badge": "Full-Stack Development",
+    "c2_desc": "Node/Express API + React (Ant Design) admin, JWT auth, real-time tickets, LINE notifications, reporting & analytics.",
+    "c2_bullets": ["LINE chatbot flow", "RBAC dashboard", "Realtime ticket status", "Excel/analytics export"],
+    "c2_chips": ["Node.js", "Express", "React", "MySQL", "LINE API"],
+
+    "c3_title": "Enterprise Windows Server Infrastructure",
+    "c3_badge": "Infrastructure",
+    "c3_desc": "AD DS, DHCP, WSUS, GPO, backups, secure file sharing, IIS intranet across HQ + 2 branches.",
+    "c3_bullets": ["Multi-site domain", "Centralized management", "Automated WSUS updates", "Permissions & intranet"],
+    "c3_chips": ["AD", "DHCP", "WSUS", "IIS"],
+
+    "c4_title": "AI-Powered Smart Parking System",
+    "c4_badge": "AI & Computer Vision",
+    "c4_desc": "Realtime vehicle detect & plate OCR with YOLO + EasyOCR; dashboard & payment integration plan.",
+    "c4_bullets": ["Realtime detection", "ALPR recognition", "Slot monitoring", "Web dashboard"],
+    "c4_chips": ["Python", "Flask", "OpenCV", "YOLO"],
+
+    "c5_title": "Multi-Cloud Deployment Platform",
+    "c5_badge": "DevOps & Cloud",
+    "c5_desc": "CI/CD automation to AWS, Render, Melon Cloud with monitoring & scaling.",
+    "c5_bullets": ["Multi-platform deploy", "Container orchestration", "Auto-scaling & LB", "Observability"],
+    "c5_chips": ["AWS", "Docker", "GitHub Actions", "Nginx"],
+
+    "c6_title": "Network Infrastructure Management",
+    "c6_badge": "Networking",
+    "c6_desc": "MikroTik RouterOS for VPN, VLAN, QoS, firewall, and monitoring between HQ & branches.",
+    "c6_bullets": ["Site-to-site VPN", "Segmentation (VLAN)", "Bandwidth & QoS", "Alerts & monitoring"],
+    "c6_chips": ["MikroTik", "VPN", "VLAN", "Firewall"],
+
+    "key_features": "Key Features:",
+    "technologies_used": "Technologies Used:"
+  },
+
+  "certs": {
+    "title": "Certificates & Achievements",
+    "subtitle": "Courses/Certificates I have completed and trained to confirm my knowledge and skills.",
+    "issued_on": "Issued on",
+    "cert_no": "Certificate No."
+  },
+
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Ready to contribute to your team and create amazing digital solutions together",
+    "left_title": "Let's Connect",
+    "left_p": "I'm actively seeking opportunities for cooperative education as a Full Stack Developer. Whether you have a project in mind, want to discuss potential collaboration, or just want to say hello, I'd love to hear from you.",
+    "email_label": "Email",
+    "phone_label": "Phone",
+    "location_label": "Location",
+    "location_val": "Chonburi, Thailand",
+    "social_title": "Connect on Social",
+    "form_title": "Send a Message",
+    "form_first": "First Name",
+    "form_last": "Last Name",
+    "form_email": "Email",
+    "form_company": "Company (Optional)",
+    "form_company_placeholder": "Your Company",
+    "form_message": "Message",
+    "form_placeholder_message": "Tell me about your project or opportunity...",
+    "form_submit": "Send Message",
+    "sending": "Sending…"
+  },
+
+  "footer": {
+    "subtitle": "Full Stack Developer & IT Student",
+    "rights": "All rights reserved.",
+    "aria_github": "Open GitHub",
+    "aria_linkedin": "Open LinkedIn",
+    "aria_email": "Send an email",
+    "email_subject": "Contact from Portfolio",
+    "email_body_hint": "Hi Puripat,\n\n"
+  }
+
+}

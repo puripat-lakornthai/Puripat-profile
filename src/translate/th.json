@@ -1,0 +1,199 @@
+{
+  "nav": {
+    "home": "หน้าแรก",
+    "about": "เกี่ยวกับ",
+    "skills": "ทักษะ",
+    "projects": "โครงการ",
+    "certs": "ประกาศนียบัตร",
+    "contact": "ติดต่อ",
+    "cta": "ติดต่อเรา",
+    "brand": "ภูริพัฒน์ ลครไทย"
+  },
+
+  "hero": {
+    "title_first": "ภูริพัฒน์",
+    "title_last": "ลครไทย",
+    "role": "นักพัฒนาฟูลสแต็ก",
+    "bio": "นักศึกษาเทคโนโลยีสารสนเทศที่หลงใหลในการพัฒนาเว็บ เทคโนโลยีคลาวด์ และโซลูชัน AI",
+    "view_work": "ดูผลงานของฉัน",
+    "contact": "ติดต่อเรา",
+    "email": "puripat.lakornthai@gmail.com",
+    "phone": "+66 92 551 9692"
+  },
+
+  "about": {
+    "title": "เกี่ยวกับฉัน",
+    "subtitle": "นักศึกษา IT ที่พร้อมสร้างคุณค่าให้ทีมด้วยโซลูชันทันสมัย",
+    "headline": "นักศึกษา ITDI & ว่าที่นักพัฒนา",
+    "p1": "ผมเป็นนักศึกษาชั้นปีที่ 4 สาขาเทคโนโลยีสารสนเทศเพื่ออุตสาหกรรมดิจิทัล (ITDI) มหาวิทยาลัยบูรพา สนใจการสร้างสรรค์โซลูชันดิจิทัลที่สร้างความเปลี่ยนแปลง",
+    "p2": "สนใจระบบเครือข่าย เว็บแอปพลิเคชัน การพัฒนา API และเทคโนโลยีคลาวด์ มีประสบการณ์ทั้ง Windows และ Linux server โดยเฉพาะ AWS และการดีพลอยบนคลาวด์",
+    "p3": "ผมรับผิดชอบ ชอบเรียนรู้ ทำงานร่วมทีมได้ดี พร้อมรับความท้าทายและประยุกต์ความรู้ให้เกิดคุณค่าสูงสุดต่อองค์กร",
+
+    "mini_university": "มหาวิทยาลัย",
+    "mini_status": "สถานะ",
+    "mini_focus": "โฟกัส",
+    "mini_university_val": "บูรพา (BUU)",
+    "mini_status_val": "ปี 4",
+    "mini_focus_val": "Full Stack / Cloud / AI",
+
+    "stats": {
+      "years_old": "อายุ",
+      "gpa": "เกรดเฉลี่ย",
+      "training_programs": "หลักสูตร/การอบรม",
+      "university": "มหาวิทยาลัย"
+    }
+  },
+
+  "skills": {
+    "title": "ทักษะทางเทคนิค",
+    "subtitle": "ความเชี่ยวชาญด้านฟูลสแต็ก คลาวด์ และโซลูชัน AI",
+
+    "col1_title_lang": "ภาษาเขียนโปรแกรม",
+    "col1_lang": ["Python", "JavaScript", "HTML", "CSS", "C/C++"],
+
+    "col1_title_web": "พัฒนาเว็บ",
+    "col1_web": ["Node.js/Express", "React + Ant Design", "REST API", "Nginx Reverse Proxy"],
+
+    "col1_title_db": "ฐานข้อมูล",
+    "col1_db": ["MySQL", "MongoDB", "SQLite"],
+
+    "col2_title_server": "เซิร์ฟเวอร์ & เน็ตเวิร์ก",
+    "col2_server": ["Windows Server", "Linux Server", "MikroTik Router", "Docker"],
+
+    "col2_title_cloud": "คลาวด์ & DevOps",
+    "col2_cloud": ["AWS", "CI/CD (GitHub Actions)", "Docker Compose", "Load Balancer"],
+
+    "col2_title_ai": "AI & Machine Learning",
+    "col2_ai": ["Flask", "OpenCV", "YOLO", "EasyOCR", "CNN", "Deep Learning"],
+
+    "col3_title_infra": "โครงสร้างระบบ",
+    "col3_infra": ["AD DS", "DHCP", "WSUS", "Group Policy", "Firewall"],
+
+    "col3_title_tools": "เครื่องมือพัฒนา",
+    "col3_tools": ["Git/GitHub", "VirtualBox", "Ansible", "Render", "Melon Cloud"],
+
+    "col3_title_lang": "ทักษะภาษา",
+    "lang_th": { "label": "ไทย", "s": "พูด: ดีมาก", "r": "อ่าน: ดีมาก", "w": "เขียน: ดีมาก" },
+    "lang_en": { "label": "อังกฤษ", "s": "พูด: ดี", "r": "อ่าน: ดี", "w": "เขียน: ดี" }
+  },
+
+  "experience": {
+    "title": "การศึกษา & ประสบการณ์",
+    "subtitle": "เส้นทางการเรียนรู้และพัฒนาวิชาชีพ",
+    "edu_title": "การศึกษา",
+    "edu_bachelor_when": "2022 – ปัจจุบัน",
+    "edu_bachelor_what": "ปริญญาตรี — ITDI มหาวิทยาลัยบูรพา · เกรดเฉลี่ย 3.00 (ปี 4)",
+    "edu_high_when": "2017 – 2021",
+    "edu_high_what": "มัธยม — รร. บางพลี ราษฎร์บำรุง · วิทย์–คณิต · เกรดเฉลี่ย 2.81",
+
+    "training_title": "การอบรม/ค่าย",
+    "training_list": [
+      "5 ก.ย. 2024 — Cooperative Education Preparation (Softskill), Professional One Co., Ltd.",
+      "9 ก.ย. 2024 — Cooperative Education Preparation (Softskill), AgileSort Corporation Co., Ltd.",
+      "17 ต.ค. 2024 — Cooperative Education Preparation (Softskill), Agency Marketing Web3",
+      "8 ส.ค. 2024 — Cooperative Education Preparation (Softskill), BlueBik Group Public Co., Ltd.",
+      "12 ธ.ค. 2024 — Clicknext Camp @BUU “Introduction to Real-world Full Stack Developer”, Clicknext Co., Ltd.",
+      "14 ม.ค. 2025 — AWS Academy Cloud Foundations (BlueBik Vulcan)",
+      "6 ก.พ. 2025 — Cooperative Education Preparation (Softskill), IRPC Public Co., Ltd.",
+      "13 มี.ค. 2025 — Application of PaaS in System Development for CI/CD Process (IT for Digital Industry Expert)"
+    ]
+  },
+
+  "projects": {
+    "title": "โปรเจกต์เด่น",
+    "subtitle": "สาธิตความเชี่ยวชาญผ่านผลงานจริงและแนวคิดที่สร้างสรรค์",
+
+    "p1_title": "Windows Server Enterprise Setup",
+    "p1_tag": "Windows Server • Active Directory • โครงข่ายองค์กร",
+    "p1_desc": "จำลองระบบองค์กร (สำนักงานใหญ่ + สาขา 2 แห่ง) พร้อม AD DS, DHCP, WSUS, Group Policy, Backup, File Sharing และ IIS Intranet",
+
+    "p2_title": "Smart Parking Project",
+    "p2_tag": "AI • Computer Vision • Python • OpenCV",
+    "p2_desc": "ระบบที่จอดรถอัจฉริยะด้วย Python Flask, OpenCV, YOLO และ EasyOCR สำหรับตรวจจับรถและบริหารจัดการ",
+
+    "p3_title": "Cloud Deployment Solutions",
+    "p3_tag": "AWS • DevOps • CI/CD • Cloud",
+    "p3_desc": "ดีพลอยเว็บทั้งแบบสแตติกและไดนามิกขึ้น AWS, Render และ Melon Cloud พร้อม CI/CD",
+
+    "title_detailed": "โปรเจกต์เด่น (รายละเอียด)",
+
+    "c1_title": "โครงสร้าง Rocky Linux + Docker",
+    "c1_badge": "DevOps & Infrastructure",
+    "c1_desc": "อินฟราพร้อมใช้งานบน Rocky Linux ด้วย Docker & Compose มากกว่า 4 บริการ, Load Balancing แบบ RR และออกแบบ HA",
+    "c1_bullets": ["ตั้งค่าและ hardening เซิร์ฟเวอร์", "จัดการหลายคอนเทนเนอร์", "Load balancing (RR)", "ออกแบบ High Availability"],
+    "c1_chips": ["Rocky Linux", "Docker", "Compose", "Nginx"],
+
+    "c2_title": "LINE Helpdesk Platform",
+    "c2_badge": "Full-Stack Development",
+    "c2_desc": "Node/Express API + React (Ant Design) แอดมิน, JWT, ตั๋วแบบเรียลไทม์, แจ้งเตือนผ่าน LINE, รายงาน/วิเคราะห์",
+    "c2_bullets": ["FLOW แชตบอท LINE", "แดชบอร์ด RBAC", "สถานะตั๋วเรียลไทม์", "ส่งออก Excel/Analytics"],
+    "c2_chips": ["Node.js", "Express", "React", "MySQL", "LINE API"],
+
+    "c3_title": "Enterprise Windows Server Infrastructure",
+    "c3_badge": "Infrastructure",
+    "c3_desc": "AD DS, DHCP, WSUS, GPO, แบ็กอัป, File Sharing อย่างปลอดภัย และ IIS intranet ระหว่าง HQ + 2 สาขา",
+    "c3_bullets": ["โดเมนหลายไซต์", "ศูนย์กลางการจัดการ", "อัปเดต WSUS อัตโนมัติ", "สิทธิ์และอินทราเน็ต"],
+    "c3_chips": ["AD", "DHCP", "WSUS", "IIS"],
+
+    "c4_title": "ระบบที่จอดรถอัจฉริยะ (AI)",
+    "c4_badge": "AI & Computer Vision",
+    "c4_desc": "ตรวจจับรถและป้ายทะเบียนด้วย YOLO + EasyOCR แบบเรียลไทม์ พร้อมแดชบอร์ด/แผนรองรับการชำระเงิน",
+    "c4_bullets": ["ตรวจจับแบบเรียลไทม์", "รู้จำป้ายทะเบียน (ALPR)", "มอนิเตอร์ช่องจอด", "แดชบอร์ดเว็บ"],
+    "c4_chips": ["Python", "Flask", "OpenCV", "YOLO"],
+
+    "c5_title": "แพลตฟอร์มดีพลอยหลายคลาวด์",
+    "c5_badge": "DevOps & Cloud",
+    "c5_desc": "ทำ CI/CD ไปยัง AWS, Render, Melon Cloud พร้อมมอนิเตอร์และสเกล",
+    "c5_bullets": ["ดีพลอยหลายแพลตฟอร์ม", "จัดการคอนเทนเนอร์", "Auto-scaling & LB", "สังเกตการณ์ระบบ"],
+    "c5_chips": ["AWS", "Docker", "GitHub Actions", "Nginx"],
+
+    "c6_title": "บริหารโครงข่ายองค์กร",
+    "c6_badge": "Networking",
+    "c6_desc": "MikroTik RouterOS สำหรับ VPN, VLAN, QoS, firewall และมอนิเตอร์ระหว่าง HQ กับสาขา",
+    "c6_bullets": ["VPN ระหว่างสาขา", "แยกเครือข่าย (VLAN)", "ควบคุมแบนด์วิดท์/QoS", "แจ้งเตือนและมอนิเตอร์"],
+    "c6_chips": ["MikroTik", "VPN", "VLAN", "Firewall"],
+
+    "key_features": "คุณสมบัติเด่น:",
+    "technologies_used": "เทคโนโลยีที่ใช้:"
+  },
+
+  "certs": {
+    "title": "ประกาศนียบัตร",
+    "subtitle": "ผลงานและการจบคอร์ส",
+    "issued_on": "ออกเมื่อ",
+    "cert_no": "เลขที่ใบรับรอง"
+  },
+
+  "contact": {
+    "title": "ติดต่อเรา",
+    "subtitle": "พร้อมร่วมทีมของคุณและสร้างโซลูชันดิจิทัลที่ยอดเยี่ยมไปด้วยกัน",
+    "left_title": "พร้อมคุยเสมอ",
+    "left_p": "กำลังมองหาโอกาสสหกิจในตำแหน่ง Full Stack Developer หากมีโปรเจกต์ ไอเดีย หรืออยากพูดคุย ยินดีอย่างยิ่งครับ",
+    "email_label": "อีเมล",
+    "phone_label": "โทร",
+    "location_label": "ที่อยู่",
+    "location_val": "ชลบุรี ประเทศไทย",
+    "social_title": "โซเชียล",
+    "form_title": "ส่งข้อความหาเรา",
+    "form_first": "ชื่อจริง",
+    "form_last": "นามสกุล",
+    "form_email": "อีเมล",
+    "form_company": "บริษัท (ถ้ามี)",
+    "form_company_placeholder": "ชื่อบริษัทของคุณ",
+    "form_message": "ข้อความ",
+    "form_placeholder_message": "เล่าโปรเจกต์หรือโอกาสที่อยากคุย...",
+    "form_submit": "ส่งข้อความ",
+    "sending": "กำลังส่ง..."
+  },
+
+  "footer": {
+    "subtitle": "นักพัฒนาฟูลสแต็ก & นักศึกษา IT",
+    "rights": "สงวนลิขสิทธิ์",
+    "aria_github": "ไปยัง GitHub",
+    "aria_linkedin": "ไปยัง LinkedIn",
+    "aria_email": "ส่งอีเมลหาเรา",
+    "email_subject": "ติดต่อจากพอร์ตโฟลิโอ",
+    "email_body_hint": "สวัสดีคุณภูริพัฒน์,\n\n"
+  }
+
+}

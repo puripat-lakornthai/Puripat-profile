@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Puripat's Portfolio Design System - Professional Dark Theme */
+
+@layer base {
+  :root {
+    /* Portfolio Color Palette - Dark Theme Optimized */
+    --background: 220 13% 9%;
+    --foreground: 210 40% 98%;
+
+    --card: 224 12% 12%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 224 12% 12%;
+    --popover-foreground: 210 40% 98%;
+
+    /* Professional Blue Theme */
+    --primary: 210 100% 60%;
+    --primary-foreground: 210 17% 8%;
+    --primary-glow: 210 100% 70%;
+    --primary-soft: 210 50% 30%;
+
+    /* Teal Accent */
+    --secondary: 180 100% 40%;
+    --secondary-foreground: 210 17% 8%;
+    --secondary-soft: 180 30% 25%;
+
+    /* Neutral Grays */
+    --muted: 224 12% 15%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 224 12% 18%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 224 12% 20%;
+    --input: 224 12% 15%;
+    --ring: 210 100% 60%;
+
+    --radius: 0.75rem;
+
+    /* Professional Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(210 100% 60%), hsl(180 100% 40%));
+    --gradient-soft: linear-gradient(135deg, hsl(224 12% 12%), hsl(224 12% 15%));
+    --gradient-hero: linear-gradient(135deg, hsl(220 13% 9%) 0%, hsl(224 12% 12%) 100%);
+    
+    /* Professional Shadows */
+    --shadow-soft: 0 4px 20px -2px hsl(220 13% 5% / 0.3);
+    --shadow-glow: 0 0 40px hsl(210 100% 60% / 0.15);
+    --shadow-card: 0 8px 30px -6px hsl(220 13% 5% / 0.4);
+    
+    /* Smooth Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    background: hsl(var(--background));
+    scroll-behavior: smooth;
+  }
+
+  /* Professional Typography */
+  .text-gradient {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: hsl(var(--muted));
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--primary));
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--primary-glow));
+  }
+
+  /* Section Spacing */
+  .section-padding {
+    @apply py-20 lg:py-28;
+  }
+
+  /* Glow Effects */
+  .glow-effect {
+    box-shadow: var(--shadow-glow);
+  }
+
+  .card-effect {
+    box-shadow: var(--shadow-card);
+    transition: var(--transition-smooth);
+  }
+
+  .card-effect:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-card), var(--shadow-glow);
+  }
+}
+
+/* ซ่อน Google Translate widget ทั้งหมด */
+/* #google_translate_element,
+.goog-te-gadget,
+.goog-te-gadget-simple,
+.goog-te-banner-frame,
+.goog-te-menu-frame,
+.goog-te-menu2,
+.goog-te-balloon-frame,
+.goog-te-combo,
+.goog-logo-link {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  width: 0 !important;
+  overflow: hidden !important;
+} */
