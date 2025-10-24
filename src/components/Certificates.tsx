@@ -10,6 +10,11 @@ type Cert = {
   hours?: string;
   certNumber?: string;
   image: string;
+  score?: string;      
+  level?: string;      
+  reading?: string;     
+  listening?: string;   
+  verifyUrl?: string;
 };
 
 const CERTS: Cert[] = [
@@ -47,6 +52,18 @@ const CERTS: Cert[] = [
     issuedOn: "15 Jan 2025",
     hours: "20 Hours",
     image: "/certificates/AWS Academy Cloud.png"
+  },
+  {
+    id: "EF-SET",
+    title: "EF SET English Certificate – B1 Intermediate",
+    issuer: "EF SET (EF Standard English Test)",
+    issuedOn: "05 Aug 2025",
+    score: "43/100",
+    level: "B1 Intermediate",
+    reading: "39 (A2 Elementary)",
+    listening: "46 (B1 Intermediate)",
+    image: "/certificates/EF-SET.jpg",
+    verifyUrl: "https://cert.efset.org/eBZNEi"
   }
 ];
 
