@@ -45,26 +45,26 @@ const CERTS: Cert[] = [
     certNumber: "433483",
     image: "/certificates/Jira Agile Project Management + Jira Administration + Jira Agile.png"
   },
-  {
-    id: "aws-academy-cloud",
-    title: "AWS Academy Graduate – Cloud Foundations",
-    issuer: "AWS Academy",
-    issuedOn: "15 Jan 2025",
-    hours: "20 Hours",
-    image: "/certificates/AWS Academy Cloud.png"
-  },
-  {
-    id: "EF-SET",
-    title: "EF SET English Certificate – B1 Intermediate",
-    issuer: "EF SET (EF Standard English Test)",
-    issuedOn: "05 Aug 2025",
-    score: "43/100",
-    level: "B1 Intermediate",
-    reading: "39 (A2 Elementary)",
-    listening: "46 (B1 Intermediate)",
-    image: "/certificates/EF-SET.jpg",
-    verifyUrl: "https://cert.efset.org/eBZNEi"
-  }
+  // {
+  //   id: "aws-academy-cloud",
+  //   title: "AWS Academy Graduate – Cloud Foundations",
+  //   issuer: "AWS Academy",
+  //   issuedOn: "15 Jan 2025",
+  //   hours: "20 Hours",
+  //   image: "/certificates/AWS Academy Cloud.png"
+  // },
+  // {
+  //   id: "EF-SET",
+  //   title: "EF SET English Certificate – B1 Intermediate",
+  //   issuer: "EF SET (EF Standard English Test)",
+  //   issuedOn: "05 Aug 2025",
+  //   score: "43/100",
+  //   level: "B1 Intermediate",
+  //   reading: "39 (A2 Elementary)",
+  //   listening: "46 (B1 Intermediate)",
+  //   image: "/certificates/EF-SET.jpg",
+  //   verifyUrl: "https://cert.efset.org/eBZNEi"
+  // }
 ];
 
 export default function Certificates() {
